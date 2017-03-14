@@ -93,6 +93,23 @@ Example:
     )
 
 
+``CORS_ORIGIN_DB_CONF``
+~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Read urls from mysql, and add them into CORS_ORIGIN_WHITELIST
+
+Example:
+
+.. code-block:: python
+
+    CORS_ORIGIN_DB_CONF = {
+        "host": 'localhost',
+        "user": '',
+        "password": '',
+        "db": ''
+    }
+
+
 ``CORS_ORIGIN_REGEX_WHITELIST``
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
